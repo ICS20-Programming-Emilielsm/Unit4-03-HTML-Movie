@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="description" content="User Input, with JavaScript">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Emilie">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
-    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favs/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favs/favicon-16x16.png">
+    <link rel="manifest" href="./favs/site.webmanifest">
     <link rel="stylesheet" href="./css/style.css">
     <title>What movie can you see? </title>
   </head>
@@ -21,20 +21,20 @@
 				<td>
 					<h3>Find out what movie can you see?: </h3>
 					<form action="javascript:displayNumber()">						
-						<label for="age">WHats your age:</label>
-						<input type="number" id="guess" step="1" min="0" placeholder="Enter the temprature"><br><br>
-						<input type="submit" value="Display rate">
+						<label for="age">What is your age:</label>
+						<input type="number" id="age" step="1" min="10" placeholder="Enter the temprature"><br><br>
+						<input type="submit" value="Display Movie">
 					</form>
 				</td>
 				<td>
-					<img src="./images/hc.webp" alt="Hot and Cold" width="100%">
+					<img src="./images/movies.jpg" alt="Movies" width="100%">
 				</td>
 			</tr>
 		</table>
 		<!-- Create a space where the user information will be displayed -->
 		<div id="display-results">
 			<div id="answer">
-        <div id="guess">
+        <div id="age">
         </div>
 			</div>
 		</div>
